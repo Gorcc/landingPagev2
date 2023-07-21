@@ -1,0 +1,75 @@
+@import url(variables.css);
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.view-btn {
+  display: flex;
+  margin: 24px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.submit-btn {
+  width: 100%;
+  margin: 24px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  padding: 36px;
+  background-image: var(--orange-pink);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.center-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+.card-element {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 180px 0 180px;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 24px 0 24px 0;
+  box-shadow: var(--box-shadow-little);
+}
+
+.card-text-center {
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-grey {
+  color: var(--main-grey);
+}

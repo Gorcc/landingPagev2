@@ -1,0 +1,20 @@
+:root {
+  --orange-gradient: linear-gradient(
+    to right bottom,
+    #c67f0e,
+    #cc6f0f,
+    #d15c17,
+    #d44722,
+    #d62d2d
+  );
+  --orange-pink: linear-gradient(
+    to right bottom,
+    #df812e,
+    rgb(203, 109, 38),
+    #f7797d,
+    #f7797d
+  );
+  --box-shadow-little: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --main-orange: #cc6f0f;
+  --main-grey: #958f8f;
+}
